@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56234" started-at="2021-07-03T09:47:51Z" finished-at="2021-07-03T09:48:47Z">
+    <groups>
+    </groups>
+    <test name="Test from Chrome" duration-ms="50208" started-at="2021-07-03T09:47:51Z" finished-at="2021-07-03T09:48:41Z">
+      <class name="com.MyTest.LoginTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="setUpTest" is-config="true" duration-ms="16520" started-at="2021-07-03T15:17:51Z" finished-at="2021-07-03T15:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.MyTest.LoginTest@3567135c]" name="verifyLoginPageTitleTest" duration-ms="131" started-at="2021-07-03T15:18:08Z" finished-at="2021-07-03T15:18:08Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<nopCommerce demo store. Login> but was:<Welcome, Please Sign In!>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<nopCommerce demo store. Login> but was:<Welcome, Please Sign In!>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.MyTest.LoginTest.verifyLoginPageTitleTest(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="tearDown" is-config="true" duration-ms="903" started-at="2021-07-03T15:18:08Z" finished-at="2021-07-03T15:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="setUpTest" is-config="true" duration-ms="12648" started-at="2021-07-03T15:18:09Z" finished-at="2021-07-03T15:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyLoginPageHeader()[pri:2, instance:com.MyTest.LoginTest@3567135c]" name="verifyLoginPageHeader" duration-ms="417" started-at="2021-07-03T15:18:21Z" finished-at="2021-07-03T15:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="tearDown" is-config="true" duration-ms="1400" started-at="2021-07-03T15:18:22Z" finished-at="2021-07-03T15:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="setUpTest" is-config="true" duration-ms="12701" started-at="2021-07-03T15:18:23Z" finished-at="2021-07-03T15:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.MyTest.LoginTest@3567135c]" name="doLoginTest" duration-ms="4432" started-at="2021-07-03T15:18:36Z" finished-at="2021-07-03T15:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@3567135c]" name="tearDown" is-config="true" duration-ms="1001" started-at="2021-07-03T15:18:40Z" finished-at="2021-07-03T15:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTest.LoginTest -->
+    </test> <!-- Test from Chrome -->
+    <test name="Test from firefox" duration-ms="5872" started-at="2021-07-03T09:48:42Z" finished-at="2021-07-03T09:48:47Z">
+      <class name="com.MyTest.LoginTest">
+        <test-method status="FAIL" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@735b478]" name="setUpTest" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:42Z" finished-at="2021-07-03T15:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'GEO', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Geo\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f6b0a34a3a6a804fa0a9d06d775e75c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'GEO', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Geo\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f6b0a34a3a6a804fa0a9d06d775e75c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.MyTest.BaseTest.setUpTest(BaseTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="SKIP" signature="verifyLoginPageTitleTest()[pri:1, instance:com.MyTest.LoginTest@735b478]" name="verifyLoginPageTitleTest" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@735b478]" name="setUpTest" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="SKIP" signature="verifyLoginPageHeader()[pri:2, instance:com.MyTest.LoginTest@735b478]" name="verifyLoginPageHeader" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeader -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTest.LoginTest@735b478]" name="setUpTest" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="SKIP" signature="doLoginTest()[pri:3, instance:com.MyTest.LoginTest@735b478]" name="doLoginTest" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.MyTest.LoginTest@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-03T15:18:47Z" finished-at="2021-07-03T15:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTest.LoginTest -->
+    </test> <!-- Test from firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

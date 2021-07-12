@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="browser" value="ff"/>
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test from Chrome" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTest.LoginTest"/>
+    </classes>
+  </test> <!-- Test from Chrome -->
+  <test thread-count="5" name="Test from firefox" parallel="methods">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="com.MyTest.LoginTest"/>
+    </classes>
+  </test> <!-- Test from firefox -->
+  <test name="Test from Chrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTest.LoginTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.MyTest.LoginTest -->
+    </classes>
+  </test> <!-- Test from Chrome(failed) -->
+  <test name="Test from firefox(failed)" parallel="methods">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="com.MyTest.LoginTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.MyTest.LoginTest -->
+    </classes>
+  </test> <!-- Test from firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
